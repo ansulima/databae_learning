@@ -24,7 +24,7 @@ CREATE TABLE profiles (
   is_deleted BOOLEAN default false,
   deleted_at  TIMESTAMP with TIME zone default current_timestamp,
   created_at  TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
-  updated_at  updated_at  TIMESTAMP
+  updated_at  TIMESTAMP
 );
 
 drop table profiles;
