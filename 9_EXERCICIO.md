@@ -1,6 +1,7 @@
 https://dbdiagram.io
 
 Básico
+
 Criação de Database:
 Exercício: Crie um banco de dados chamado Empresa.
 Expectativa: Um novo banco de dados chamado Empresa deve ser criado.

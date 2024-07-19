@@ -1,0 +1,82 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice Smith",
+      "email": "alice@example.com",
+      "orders": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Bob Johnson",
+      "email": "bob@example.com",
+      "orders": [
+        3
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Anderson Johnson",
+      "email": "anderson@example.com",
+      "orders": [
+        1
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Laptop",
+      "price": 1200.0,
+      "inventory": 35
+    },
+    {
+      "id": 2,
+      "name": "Smartphone",
+      "price": 800.0,
+      "inventory": 50
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "items": [
+        {
+          "product_id": 1,
+          "quantity": 1
+        },
+        {
+          "product_id": 2,
+          "quantity": 2
+        }
+      ],
+      "total_price": 2800.0
+    },
+    {
+      "id": 2,
+      "user_id": 1,
+      "items": [
+        {
+          "product_id": 2,
+          "quantity": 3
+        }
+      ],
+      "total_price": 2400.0
+    },
+    {
+      "id": 3,
+      "user_id": 2,
+      "items": [
+        {
+          "product_id": 1,
+          "quantity": 1
+        }
+      ],
+      "total_price": 1200.0
+    }
+  ]
+}

@@ -11,7 +11,7 @@ INSERT INTO users (username, email, password, is_admin)
 VALUES ('Anderson4', 'anderson4@gmail.com', '123', false);
 
 
-INSERT INTO profiles (first_name, lst_name, birthdate, avatar_url, user_id)
+INSERT INTO profiles (first_name, last_name, birthdate, avatar_url, user_id)
 VALUES ('Anderson', 'Freitas', DATE '1991-06-20', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxKlMjLMYdfmx692cz7CVVmseQuY1ztX5d6A&s', 1);
 
 INSERT INTO categories (name)
